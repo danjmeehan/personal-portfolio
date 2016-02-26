@@ -1,0 +1,74 @@
+body{
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+}
+
+/*HEADER*/
+header{
+	background-color: white;
+	height: 90px;
+	line-height: 90px;
+	transition: all 0.4s ease;
+}
+header.sticky{
+	position: fixed;
+	background-color: #bdd1db;
+	height: 75px;
+	line-height: 75px;
+	width: 100%;
+/*	margin-bottom: 25px;*/
+	z-index: 2;
+}
+header .logo{
+	float: left;
+	height: 50px;
+}
+header .logo img{
+
+	height: 50px;
+}
+header .text{
+	float: left;
+	font-size: 20px;
+}
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+/*BODY*/
+main{
+	background-color: #bdd1db;
+	border-radius: 4px;
+}
+.background{
+	height: 500px;
+	background: url(../images/capitol.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+h1{
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+}
+.project{
+	margin-bottom: 100px;
+}
+.project img{
+	height: 50px;
+	vertical-align: middle;
+}
+.description span{
+	display: block;
+	font-size: 16px;
+}
+
+/*FOOTER*/
+footer{
+	background-color: white;
+	height: 75px;
+	text-align: center;
+	padding: 5px 0;
+}
