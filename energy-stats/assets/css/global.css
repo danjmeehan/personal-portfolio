@@ -89,10 +89,7 @@ header nav .glyphicon-menu-hamburger{
 }
 h2.page{
   margin-top:0;
-}
-h2.page sup{
-  font-size:13px;
-  color:#ccc;
+  text-align: center;
 }
 
 /* xs hide sidebar fix */
