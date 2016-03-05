@@ -107,5 +107,22 @@ footer h3{
 }
 footer .row{
 	margin-bottom: 30px;
+}
 
+/*MEDIA QUERIES FOR MOBILE*/
+
+@media screen and (max-width: 800px) {
+.background{
+	background-image: none;
+	background-color: #3f51b5;
+}
+main{
+	text-align: center;
+}
+.project{
+	margin-bottom: 50px;
+}
+.description h3{
+    margin-top: 25px;
+  }
 }
