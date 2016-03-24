@@ -37,6 +37,7 @@ header .logo img{
 header .text{
 	float: left;
 	font-size: 20px;
+	padding-left: 5px;
 }
 .helper {
 	display: inline-block;
@@ -50,23 +51,26 @@ main{
 }
 .background{
 	height: 700px;
-	background: url(../images/austin.jpg) no-repeat center center fixed;
+	background: url(../images/blue-skyline.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 .intro h1{
 	color: white;
 	text-align: center;
+	text-shadow: 1px 5px 10px black;
 	padding: 75px 0;
 	margin-top: 100px;
 }
 .intro h2{
 	color: white;
 	text-align: center;
+	text-shadow: 1px 5px 10px black;
 	padding: 5px 0;
 }
 main h1{
 	color: white;
 	text-align: center;
+	text-shadow: 1px 1px 1px gray;
 	margin: 0;
 	padding: 20px 0;
 }
